@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore di Avatar Medievale</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+    <header>
+        <i class="logoicon fa-solid fa-gopuram"></i>
+        <h1 class="logo">Generatore di Avatar Medievale</h1>
+        <i class="logoicon fa-solid fa-gopuram"></i>
+    </header>
+        <main id="generator_container">      
+            <!-- START Section SX-->
+            <div class="generator_container_form">
+                <form action="_post" class="generator_form">
+                    <div class="container_class">
+                    <label for="classe" class="label_style">Seleziona la Classe</label>
+                        <select name="classe" id="classe" class="select_class_dropdown">
+                            <option id="option_class_style" value="guerriero">Guerriero</option>
+                            <option id="option_class_style" value="arciere">Arciere</option>
+                            <option id="option_class_style" value="mago">Mago</option>
+                            <option id="option_class_style" value="ladro">Ladro</option>
+                            <option id="option_class_style" value="paladino">Paladino</option>
+                        </select>
+                    </div>
+                    <div class="container_razza">
+                        <label for="razze" class="label_style">Seleziona la Razza</label>
+                        <select name="razze" id="razze" class="select_class_dropdown">
+                            <option value="umano">Umano</option>
+                            <option value="elfo">Elfo</option>
+                            <option value="nano">Nano</option>
+                            <option value="dragoide">Dragoide</option>
+                            <option value="fey">Fey</option>
+                        </select>
+                    </div>
+                    <div class="container_genere">
+                        <div class="style_container_genere">
+                            <p class="genere_text">Scegli il genere!</p>
+                            <div class="input_style">
+                                <ul>
+                                    <li><input type="radio" name="genere" value="Altro" class="sp-input-radio"/>Maschio</li>
+                                    <li><input type="radio" name="genere" value="Femmina" class="sp-input-radio"/>Femmina</li>
+                                    <li><input type="radio" name="genere" value="Altro" class="sp-input-radio"/>Altro</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_name">
+                        <form action="_post">
+                            <label for="fname" class="label_style" >Nome:</label>
+                            <input placeholder="Inserisci il nome" type="text" id="fname" name="fname" class="select_class_style" required>
+                            <label for="lname" class="label_style">Cognome:</label>
+                            <input placeholder="Inserisci il Cognome" type="text" id="lname" name="lname" class="select_class_style" >
+                        </form>
+                    </div>
+                </form> 
+            <button class="button_create_pg">Genera il tuo Avatar !</button>
+            </div>
+            <!-- END Section SX-->
+
+            <div class="generator_container_dx">
+                <div class="container_pg">
+                    <h3 class="container_pg_title">Ecco il personaggio da te generato!</h3>
+                    <img class="avatar_img" src="https://i.etsystatic.com/32354559/r/il/90634f/4586700075/il_794xN.4586700075_94jc.jpg" style="width: 250px; height: 300px;" alt="">
+                    <p class="subtext_img">il suo nome è Giuseppe Genova ed il suo genere è Maschio</p>
+                    <p class="subtext_class">la sua classe è Guerriero</p>
+                    <p class="subtext_razza">e la sua razza è il Fey</p>
+                    <p class="subtext_storia"">adesso vi racconto la sua storia Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Harum, necessitatibus et. Neque, quae eum dolor ratione culpa itaque fugit perferendis 
+                    laboriosam error, saepe aliquid sed, 
+                    maxime consequuntur laudantium molestias voluptates.</p>
+                </div>
+            </div> 
+        </main>
+
+        
+        <footer>
+            <p class="text_footer">Copyright di Genova Giuseppe Creato il giorno 02/12/2024</p>
+            <ul class="menu_footer">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Credits</a></li>
+                <li><a href="#">Cotattaci</a></li>
+            </ul>
+        </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/e44f03e977.js" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
